@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.todo-table {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-detail {
+  background-color: #2563eb;
+}
+
+.btn-edit {
+  background-color: #16a34a;
+}
+
+.btn-delete {
+  background-color: #dc2626;
+}
+
+/* Modal Update Todo */
+
+.modal-update {
+  width: 480px;
+  max-width: 90vw;
+  padding: 22px;
+}
+
+/* Judul Modal Update */
+
+.modal-update h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Input Modal Update */
+
+.modal-update input,
+.modal-update textarea,
+.modal-update select {
+  width: 100%;
+  padding: 9px;
+  font-size: 13px;
+}
+
+/* Label */
+
+.modal-update label {
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+/* Deskripsi */
+
+.modal-update textarea {
+  height: 65px;
+  resize: vertical;
+}
+
+/* Status dan Prioritas */
+
+.modal-update .form-row {
+  display: flex;
+  gap: 12px;
+}
+
+/* Tombol */
+
+.modal-update .modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-update .modal-actions button {
+  flex: 1;
+  padding: 9px;
+}
+
+/* MODAL DETAIL */
+
+.modal-detail {
+  width: 480px;
+  max-width: 90vw;
+  padding: 22px;
+}
+
+.modal-detail h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.detail-content {
+  margin-top: 15px;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+}
+
+.detail-item strong {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.detail-item p {
+  font-size: 13px;
+  color: #555;
+  background: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.detail-row {
+  display: flex;
+  gap: 15px;
+}
+
+.detail-row .detail-item {
+  flex: 1;
+}
+
+.modal-detail .modal-actions {
+  margin-top: 20px;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
