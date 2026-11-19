@@ -9,6 +9,9 @@
 #Tampilan Deskripsi Todo List
 <img width="1920" height="1080" alt="Screenshot (886)" src="https://github.com/user-attachments/assets/04b9438d-ff68-4907-811a-4182157810e5" />
 
+#Tampilan Edit Tugas
+<img width="1920" height="1080" alt="Screenshot (891)" src="https://github.com/user-attachments/assets/a10f4b25-a157-4f77-868f-bbbcb6f771ae" />
+
 #Tampilan Menghapus Tugas
 <img width="1920" height="1080" alt="Screenshot (887)" src="https://github.com/user-attachments/assets/64199b68-b2cd-4516-a1cc-7aa66a463916" />
 
